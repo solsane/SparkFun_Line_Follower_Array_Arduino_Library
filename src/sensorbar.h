@@ -104,7 +104,7 @@ class SensorBar
 //Does not care about over-running real data ( if request is outside length's bounds ).
 //For example, the underlying machine writes [48], [49], [0], [1] ... 
 
-class CircularBuffer
+class CircularBuffer 
 {
 public:
     CircularBuffer( uint16_t inputSize );
